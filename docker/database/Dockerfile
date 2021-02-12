@@ -1,5 +1,5 @@
-FROM mariadb:latest
+FROM postgres:latest
 
-CMD ["mysqld"]
+CMD ["postgres"]
 
-EXPOSE 3306
+EXPOSE 5432
